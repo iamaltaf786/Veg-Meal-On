@@ -259,3 +259,9 @@ footer{
 .center{
     text-align: center;
 }
+
+.center a {
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+}
