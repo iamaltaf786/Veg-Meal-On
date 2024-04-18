@@ -118,7 +118,7 @@ html{
 
 /*  logos -> logo-container  logos-slide -> logo-container-slide */
 #services {
-    margin: 34px;
+    margin: 60px 25px 60px 0;
     margin-left: 0;
     /* display: flex; */
   }
@@ -175,10 +175,15 @@ html{
   
     overflow: hidden;
   }
-  
+
+  /* Hover on food items to pause the slider */
+  .logo-container:hover .logo-container-slide {
+    animation-play-state: paused;
+  }
+
   .logo-container-slide {
     display: inline-block;
-    animation: 40s slide infinite linear;
+    animation: 80s slide infinite linear;
   }
   
   .hori-box {
